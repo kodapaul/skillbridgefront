@@ -1,24 +1,29 @@
-# skillbridgefront
+# Bridge 360 Internship App SkillBridge Front End
+Contributor:
+- Paul Dela Vega
+- Lyle Matthew Leviste
+- Samantha Montales
+- Howard Kim Ison
 
-## Project setup
-```
-npm install
-```
+# Set Up
+- Step 1: clone Repository
+- Step 2: On terminal inside directory run "npm install"
+- Step 4: To run the app npm run serve
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# How to Contribute
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Git or Version Control:
+- Don't commit anything to master
+- Create Branch to complete task
+- Name the branch with this format... "git checkout -b <fe>/<task number>-<name-of-task>" or "git checkout -b admin/200-name-of-task"
+- Don't name branch with capital or spaces. Always use lowercase and dash for spaces
+- To check current branch run "git branch"
+- To check all remote branches run "git branch -a"
+- To pull a branch run "git checkout <branch-name>" or git checkout admin/200-name-of-task
+- To move inside local branches git checkout <branch-name>
+- Before committing a branch make sure you merge it with master. E.G. on branch 120. "git merge master"
+- After commiting and push a branch to remote, create a pull request and add thepauldv as a reviewer
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Coding with Lumen:
+- Simple DRY or Dont repeat Your Self Principle
+- Single Responsibility Principle is recommended
